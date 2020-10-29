@@ -1,3 +1,5 @@
+//usr/bin/env go run $0 "$@"; exit
+
 // Copyright 2020 The Ebiten Authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -205,4 +207,4 @@ func main() {
 	if err := ebiten.RunGame(newGame()); err != nil {
 		log.Fatal(err)
 	}
-    }
+}
